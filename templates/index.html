@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Prediction from Advertisements</title>
+</head>
+<body style="background-color: hsl(270, 100%, 90%);">
+<!-- <body background-image="static\sales.png" background-repeat="no-repeat” background-size="cover”> -->
+    <!-- <center> -->
+    <center>
+    <h1>Sales Prediction from Advertisements</h1>
+    </center>
+    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INSURANCE -->
+    <br>
+    <br>
+    <img src='static/sales.png'>
+    
+    <br><br>
+    <form method="POST" action ="/predict_sales">
+        
+        <label>TV:</label>
+        <input type="text" name ="tv">
+        <br>
+        <br>   						
+        <label>Radio:</label>
+        <input type="text" name ="radio">
+        <br>  
+        <br>        
+        <label>Social_Media:</label>
+        <input type="text" name ="social_media">
+        <br>
+        <br>
+        <label>Influencer:</label>
+        <select name="influencer">
+            <option value="macro">Macro</option>
+            <option value="mega">Mega</option>
+            <option value="micro">Micro</option>
+            <option value="nano">Nano</option></select>
+        
+        <br>
+        <br>
+        <input type="submit" value ="SUBMIT">
+     
+
+    </form>
+
+    
+</body>
+</html>
